@@ -1,0 +1,29 @@
+Guardar
+
+git init   	--: Descarga las carpetas de git
+git add .  	--: Se agrega los cambios
+git status  	--: Verifica que se carguen las cosas
+git commit -m "nombre del commit" --: Se genera el guardado en PC
+git remote add origin hhttps://github.com/PopKornMaster/NombreDelRepo --: conecta la PC con el repo de github
+git bash master --: Poder ver las ramas
+git push origin master
+
+----------------------------// ------------------------------------------------ // -------------------------------------
+Actualizar
+
+git add .
+git status
+git commit -m "nombre del commit"
+git push origin master
+
+----------------------------// ------------------------------------------------ // -------------------------------------
+Versiones
+
+git log --: Historial de guardado
+git chekout --: Volver a versiones anteriores de git en PC
+git switch master --: Sirve para volver a la rama principal, si se cambio las versiones
+
+----------------------------// ------------------------------------------------ // -------------------------------------
+Descargar 
+
+git clone https://github.com/PopKornMaster/mi-repo.git
